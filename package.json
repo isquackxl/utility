@@ -1,0 +1,17 @@
+{
+  "name": "@quackxl/utility",
+  "version": "0.0.1",
+  "description": "JS常用工具封装",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "quackxl",
+    "utility",
+    "dateFormat"
+  ],
+  "author": "quackxl",
+  "license": "ISC"
+}
