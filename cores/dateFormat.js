@@ -1,5 +1,5 @@
 class DateFormat {
-  constructor(dateTime = new Date(), template = 'yyyy-MM-dd HH-mm-ss') {
+  constructor(dateTime = new Date(), template = 'yyyy-MM-dd HH:mm:ss') {
     this.date = new Date(dateTime);
     this.template = template;
     this.year = this.date.getFullYear();
