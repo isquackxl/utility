@@ -5,12 +5,143 @@
 ## 安装
 
 ```bash
-npm install @quack/utility
+npm install @quackxl/utility
 ```
 
 ## 更新日志
 
 [更新日志](./CHANGELOG.md)
+
+## 代码开源
+
+[Github](https://github.com/isquackxl/utility)
+
+[Gitee](https://gitee.com/isquackxl/utility)
+
+## checkEmail
+
+> 判断数据是否符合邮箱规范，支持带汉字的邮箱
+
+**引入：**
+
+```js
+import { checkEmail } from '@quackxl/utility'
+or
+import checkEmail from '@quackxl/utility/cores/checkEmail.js'
+```
+
+**格式：**
+
+```js
+checkEmail(str)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述             |
+| -------- | --------- | ---------------- |
+| `str`    | `String`  | 需要判断的字符串 |
+| `return` | `Boolean` |                  |
+
+## checkID
+
+> 判断数据是否符合身份证号码规范，15位或者18位
+
+**引入：**
+
+```js
+import { checkID } from '@quackxl/utility'
+or
+import checkID from '@quackxl/utility/cores/checkID.js'
+```
+
+**格式：**
+
+```js
+checkID(str)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述             |
+| -------- | --------- | ---------------- |
+| `str`    | `String`  | 需要判断的字符串 |
+| `return` | `Boolean` |                  |
+
+## checkMobilePhone
+
+> 判断数据是否符合移动电话号码规范
+
+**引入：**
+
+```js
+import { checkMobilePhone } from '@quackxl/utility'
+or
+import checkMobilePhone from '@quackxl/utility/cores/checkMobilePhone.js'
+```
+
+**格式：**
+
+```js
+checkMobilePhone(str)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述             |
+| -------- | --------- | ---------------- |
+| `str`    | `String`  | 需要判断的字符串 |
+| `return` | `Boolean` |                  |
+
+## checkQQ
+
+> 判断数据是否符合QQ号规范
+
+**引入：**
+
+```js
+import { checkQQ } from '@quackxl/utility'
+or
+import checkQQ from '@quackxl/utility/cores/checkQQ.js'
+```
+
+**格式：**
+
+```js
+checkQQ(str)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述             |
+| -------- | --------- | ---------------- |
+| `str`    | `String`  | 需要判断的字符串 |
+| `return` | `Boolean` |                  |
+
+## checkTelephone
+
+> 判断数据是否符合固定电话号码规范
+
+**引入：**
+
+```js
+import { checkTelephone } from '@quackxl/utility'
+or
+import checkTelephone from '@quackxl/utility/cores/checkTelephone.js'
+```
+
+**格式：**
+
+```js
+checkTelephone(str)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述             |
+| -------- | --------- | ---------------- |
+| `str`    | `String`  | 需要判断的字符串 |
+| `return` | `Boolean` |                  |
 
 ## dateFormat
 
@@ -107,6 +238,31 @@ import isArray from '@quackxl/utility/cores/isArray.js'
 
 ```js
 isArray(value)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述           |
+| -------- | --------- | -------------- |
+| `value`  | `Any`     | 需要判断的数据 |
+| `return` | `Boolean` |                |
+
+## isBigInt
+
+> 判断数据是否为 `BigInt`类型
+
+**引入：**
+
+```js
+import { isBigInt } from '@quackxl/utility'
+or
+import isBigInt from '@quackxl/utility/cores/isBigInt.js'
+```
+
+**格式：**
+
+```js
+isBigInt(value)
 ```
 
 **参数：**
@@ -218,7 +374,7 @@ isNumber(value)
 
 ## isObject
 
-> 判断数据是否为`Object`类型
+> 判断数据是否为`Object`类型，仅仅判断通过`{}`或`new Object()`创建出来的对象
 
 **引入：**
 

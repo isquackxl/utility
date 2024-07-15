@@ -1,6 +1,6 @@
 {
   "name": "@quackxl/utility",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JS常用工具封装",
   "main": "index.js",
   "type": "module",
@@ -11,7 +11,23 @@
   "keywords": [
     "quackxl",
     "utility",
-    "dateFormat"
+    "checkEmail",
+    "checkID",
+    "checkMobilePhone",
+    "checkQQ",
+    "checkTelephone",
+    "dateFormat",
+    "getType",
+    "isArray",
+    "isBoolean",
+    "isBigInt",
+    "isNotEmpty",
+    "isNull",
+    "isNumber",
+    "isObject",
+    "isString",
+    "isSymbol",
+    "isUndefined"
   ],
   "author": "quackxl",
   "license": "ISC",

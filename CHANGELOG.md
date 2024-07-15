@@ -1,5 +1,17 @@
 # 更新日志
 
+## [0.0.3] - 2024-07-15
+
+### 新增
+
+- 新增`checkEmail()`方法
+- 新增`checkID()`方法
+- 新增`checkMobilePhone()`方法
+- 新增`checkQQ()`方法
+- 新增`checkTelephone()`方法
+
+- 新增`isBigInt()`方法
+
 ## [0.0.2] - 2024-07-13
 
 ### 新增
@@ -23,4 +35,4 @@
 
 ### 新增
 
-- 增加`dateFormat()`方法
+- 新增`dateFormat()`方法
