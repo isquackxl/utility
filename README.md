@@ -18,6 +18,33 @@ npm install @quackxl/utility
 
 [Gitee](https://gitee.com/isquackxl/utility)
 
+[Npm]()
+
+## checkColor
+
+> 判断数据是否符合颜色格式规范
+
+**引入：**
+
+```js
+import { checkColor } from '@quackxl/utility'
+or
+import checkColor from '@quackxl/utility/cores/checkColor.js'
+```
+
+**格式：**
+
+```js
+checkColor(color)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述             |
+| -------- | --------- | ---------------- |
+| `color`  | `String`  | 需要判断的字符串 |
+| `return` | `Boolean` |                  |
+
 ## checkEmail
 
 > 判断数据是否符合邮箱规范，支持带汉字的邮箱
@@ -41,6 +68,83 @@ checkEmail(str)
 | 属性名   | 类型      | 描述             |
 | -------- | --------- | ---------------- |
 | `str`    | `String`  | 需要判断的字符串 |
+| `return` | `Boolean` |                  |
+
+
+
+## checkHEX
+
+> 判断数据是否符合 hex 颜色格式规范
+
+**引入：**
+
+```js
+import { checkHEX } from '@quackxl/utility'
+or
+import checkHEX from '@quackxl/utility/cores/checkHEX.js'
+```
+
+**格式：**
+
+```js
+checkHEX(color)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述             |
+| -------- | --------- | ---------------- |
+| `color`  | `String`  | 需要判断的字符串 |
+| `return` | `Boolean` |                  |
+
+## checkHSL
+
+> 判断数据是否符合 hsl 颜色格式规范
+
+**引入：**
+
+```js
+import { checkHSL } from '@quackxl/utility'
+or
+import checkHSL from '@quackxl/utility/cores/checkHSL.js'
+```
+
+**格式：**
+
+```js
+checkHSL(color)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述             |
+| -------- | --------- | ---------------- |
+| `color`  | `String`  | 需要判断的字符串 |
+| `return` | `Boolean` |                  |
+
+## checkHSLA
+
+> 判断数据是否符合 hsla 颜色格式规范
+
+**引入：**
+
+```js
+import { checkHSLA } from '@quackxl/utility'
+or
+import checkHSLA from '@quackxl/utility/cores/checkHSLA.js'
+```
+
+**格式：**
+
+```js
+checkHSLA(color)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述             |
+| -------- | --------- | ---------------- |
+| `color`  | `String`  | 需要判断的字符串 |
 | `return` | `Boolean` |                  |
 
 ## checkID
@@ -116,6 +220,56 @@ checkQQ(str)
 | 属性名   | 类型      | 描述             |
 | -------- | --------- | ---------------- |
 | `str`    | `String`  | 需要判断的字符串 |
+| `return` | `Boolean` |                  |
+
+## checkRGB
+
+> 判断数据是否符合 rgb 颜色格式规范
+
+**引入：**
+
+```js
+import { checkRGB } from '@quackxl/utility'
+or
+import checkRGB from '@quackxl/utility/cores/checkRGB.js'
+```
+
+**格式：**
+
+```js
+checkRGB(color)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述             |
+| -------- | --------- | ---------------- |
+| `color`  | `String`  | 需要判断的字符串 |
+| `return` | `Boolean` |                  |
+
+## checkRGBA
+
+> 判断数据是否符合 rgba 颜色格式规范
+
+**引入：**
+
+```js
+import { checkRGBA } from '@quackxl/utility'
+or
+import checkRGBA from '@quackxl/utility/cores/checkRGBA.js'
+```
+
+**格式：**
+
+```js
+checkRGBA(color)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述             |
+| -------- | --------- | ---------------- |
+| `color`  | `String`  | 需要判断的字符串 |
 | `return` | `Boolean` |                  |
 
 ## checkTelephone
@@ -472,3 +626,27 @@ isUndefined(value)
 | `value`  | `Any`     | 需要判断的数据 |
 | `return` | `Boolean` |                |
 
+## trimAll
+
+> 去掉 str 中的全部类型空格，包括`t\r\f\n\s`
+
+**引入：**
+
+```js
+import { trimAll } from '@quackxl/utility'
+or
+import trimAll from '@quackxl/utility/cores/trimAll.js'
+```
+
+**格式：**
+
+```js
+trimAll(str)
+```
+
+**参数：**
+
+| 属性名   | 类型      | 描述           |
+| -------- | --------- | -------------- |
+| `str`    | `Any`     | 需要判断的数据 |
+| `return` | `Boolean` |                |

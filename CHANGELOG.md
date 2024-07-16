@@ -1,5 +1,17 @@
 # 更新日志
 
+## [0.0.4]
+
+### 新增
+
+- 新增`checkColor()`方法
+- 新增`checkHEX()`方法
+- 新增`checkHSL()`方法
+- 新增`checkHSLA()`方法
+- 新增`checkRGB()`方法
+- 新增`checkRGBA()`方法
+- 新增`trimAll()`方法
+
 ## [0.0.3] - 2024-07-15
 
 ### 新增
