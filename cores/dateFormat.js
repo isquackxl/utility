@@ -252,8 +252,6 @@ class DateFormat {
  * @param {*} template 格式化模板
  * @returns 根据 template 格式化 dateTime 之后的时间字符串
  */
-const dateFormat = (dateTime, template) => {
+export const dateFormat = (dateTime, template) => {
   return new DateFormat(dateTime, template).timeString();
 }
-
-export default dateFormat;

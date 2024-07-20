@@ -1,6 +1,6 @@
 # @quackxl/utility
 
-> JS常用工具封装
+> JS 常用工具封装
 
 ## 安装
 
@@ -27,15 +27,15 @@ npm install @quackxl/utility
 **引入：**
 
 ```js
-import { checkColor } from '@quackxl/utility'
+import { checkColor } from "@quackxl/utility";
 or
-import checkColor from '@quackxl/utility/cores/checkColor.js'
+import { checkColor } from "@quackxl/utility/cores/checkColor.js";
 ```
 
 **格式：**
 
 ```js
-checkColor(color)
+checkColor(color);
 ```
 
 **参数：**
@@ -52,15 +52,15 @@ checkColor(color)
 **引入：**
 
 ```js
-import { checkEmail } from '@quackxl/utility'
+import { checkEmail } from "@quackxl/utility";
 or
-import checkEmail from '@quackxl/utility/cores/checkEmail.js'
+import { checkEmail } from "@quackxl/utility/cores/checkEmail.js";
 ```
 
 **格式：**
 
 ```js
-checkEmail(str)
+checkEmail(str);
 ```
 
 **参数：**
@@ -70,24 +70,22 @@ checkEmail(str)
 | `str`    | `String`  | 需要判断的字符串 |
 | `return` | `Boolean` |                  |
 
-
-
-## checkHEX
+## checkHex
 
 > 判断数据是否符合 hex 颜色格式规范
 
 **引入：**
 
 ```js
-import { checkHEX } from '@quackxl/utility'
+import { checkHex } from "@quackxl/utility";
 or
-import checkHEX from '@quackxl/utility/cores/checkHEX.js'
+import { checkHex } from "@quackxl/utility/cores/checkHex.js";
 ```
 
 **格式：**
 
 ```js
-checkHEX(color)
+checkHex(color);
 ```
 
 **参数：**
@@ -97,22 +95,22 @@ checkHEX(color)
 | `color`  | `String`  | 需要判断的字符串 |
 | `return` | `Boolean` |                  |
 
-## checkHSL
+## checkHsl
 
 > 判断数据是否符合 hsl 颜色格式规范
 
 **引入：**
 
 ```js
-import { checkHSL } from '@quackxl/utility'
+import { checkHsl } from "@quackxl/utility";
 or
-import checkHSL from '@quackxl/utility/cores/checkHSL.js'
+import { checkHsl } from "@quackxl/utility/cores/checkHsl.js";
 ```
 
 **格式：**
 
 ```js
-checkHSL(color)
+checkHsl(color);
 ```
 
 **参数：**
@@ -122,22 +120,22 @@ checkHSL(color)
 | `color`  | `String`  | 需要判断的字符串 |
 | `return` | `Boolean` |                  |
 
-## checkHSLA
+## checkHsla
 
 > 判断数据是否符合 hsla 颜色格式规范
 
 **引入：**
 
 ```js
-import { checkHSLA } from '@quackxl/utility'
+import { checkHsla } from "@quackxl/utility";
 or
-import checkHSLA from '@quackxl/utility/cores/checkHSLA.js'
+import { checkHsla } from "@quackxl/utility/cores/checkHsla.js";
 ```
 
 **格式：**
 
 ```js
-checkHSLA(color)
+checkHsla(color);
 ```
 
 **参数：**
@@ -149,20 +147,20 @@ checkHSLA(color)
 
 ## checkID
 
-> 判断数据是否符合身份证号码规范，15位或者18位
+> 判断数据是否符合身份证号码规范，15 位或者 18 位
 
 **引入：**
 
 ```js
-import { checkID } from '@quackxl/utility'
+import { checkID } from "@quackxl/utility";
 or
-import checkID from '@quackxl/utility/cores/checkID.js'
+import { checkID } from "@quackxl/utility/cores/checkID.js";
 ```
 
 **格式：**
 
 ```js
-checkID(str)
+checkID(str);
 ```
 
 **参数：**
@@ -179,15 +177,15 @@ checkID(str)
 **引入：**
 
 ```js
-import { checkMobilePhone } from '@quackxl/utility'
+import { checkMobilePhone } from "@quackxl/utility";
 or
-import checkMobilePhone from '@quackxl/utility/cores/checkMobilePhone.js'
+import { checkMobilePhone } from "@quackxl/utility/cores/checkMobilePhone.js";
 ```
 
 **格式：**
 
 ```js
-checkMobilePhone(str)
+checkMobilePhone(str);
 ```
 
 **参数：**
@@ -199,20 +197,20 @@ checkMobilePhone(str)
 
 ## checkQQ
 
-> 判断数据是否符合QQ号规范
+> 判断数据是否符合 QQ 号规范
 
 **引入：**
 
 ```js
-import { checkQQ } from '@quackxl/utility'
+import { checkQQ } from "@quackxl/utility";
 or
-import checkQQ from '@quackxl/utility/cores/checkQQ.js'
+import { checkQQ } from "@quackxl/utility/cores/checkQQ.js";
 ```
 
 **格式：**
 
 ```js
-checkQQ(str)
+checkQQ(str);
 ```
 
 **参数：**
@@ -222,22 +220,22 @@ checkQQ(str)
 | `str`    | `String`  | 需要判断的字符串 |
 | `return` | `Boolean` |                  |
 
-## checkRGB
+## checkRgb
 
 > 判断数据是否符合 rgb 颜色格式规范
 
 **引入：**
 
 ```js
-import { checkRGB } from '@quackxl/utility'
+import { checkRgb } from "@quackxl/utility";
 or
-import checkRGB from '@quackxl/utility/cores/checkRGB.js'
+import { checkRgb } from "@quackxl/utility/cores/checkRgb.js";
 ```
 
 **格式：**
 
 ```js
-checkRGB(color)
+checkRgb(color);
 ```
 
 **参数：**
@@ -247,22 +245,22 @@ checkRGB(color)
 | `color`  | `String`  | 需要判断的字符串 |
 | `return` | `Boolean` |                  |
 
-## checkRGBA
+## checkRgba
 
 > 判断数据是否符合 rgba 颜色格式规范
 
 **引入：**
 
 ```js
-import { checkRGBA } from '@quackxl/utility'
+import { checkRgba } from "@quackxl/utility";
 or
-import checkRGBA from '@quackxl/utility/cores/checkRGBA.js'
+import { checkRgba } from "@quackxl/utility/cores/checkRgba.js";
 ```
 
 **格式：**
 
 ```js
-checkRGBA(color)
+checkRgba(color);
 ```
 
 **参数：**
@@ -279,15 +277,15 @@ checkRGBA(color)
 **引入：**
 
 ```js
-import { checkTelephone } from '@quackxl/utility'
+import { checkTelephone } from "@quackxl/utility";
 or
-import checkTelephone from '@quackxl/utility/cores/checkTelephone.js'
+import { checkTelephone } from "@quackxl/utility/cores/checkTelephone.js";
 ```
 
 **格式：**
 
 ```js
-checkTelephone(str)
+checkTelephone(str);
 ```
 
 **参数：**
@@ -304,24 +302,24 @@ checkTelephone(str)
 **引入：**
 
 ```js
-import { dateFormat } from '@quackxl/utility'
+import { dateFormat } from "@quackxl/utility";
 or
-import dateFormat from '@quackxl/utility/cores/dateFormat.js'
+import { dateFormat } from "@quackxl/utility/cores/dateFormat.js";
 ```
 
 **格式：**
 
 ```js
-dateFormat(dateTime, template)
+dateFormat(dateTime, template);
 ```
 
 **参数：**
 
-| 属性名     | 类型               | 描述                                                         |
-| ---------- | ------------------ | ------------------------------------------------------------ |
-| `dateTime` | `Date` or `String` | 需要格式化的时间。可以有两种格式，Date为时间类型，String为时间戳类型 |
-| `template` | `String`           | 格式化模板。指定模板对时间进行格式化，默认值为`'yyyy-MM-dd HH:mm:ss'` |
-| `return`   | `String`           | 返回值。根据 template 格式化 dateTime 之后的时间字符串       |
+| 属性名     | 类型               | 描述                                                                   |
+| ---------- | ------------------ | ---------------------------------------------------------------------- |
+| `dateTime` | `Date` or `String` | 需要格式化的时间。可以有两种格式，Date 为时间类型，String 为时间戳类型 |
+| `template` | `String`           | 格式化模板。指定模板对时间进行格式化，默认值为`'yyyy-MM-dd HH:mm:ss'`  |
+| `return`   | `String`           | 返回值。根据 template 格式化 dateTime 之后的时间字符串                 |
 
 `template`:
 
@@ -329,20 +327,20 @@ dateFormat(dateTime, template)
 | ------ | --------------------------------------------------- |
 | yyyy   | 年                                                  |
 | M      | 月，不足两位则显示一位                              |
-| MM     | 月，不足两位则前补0                                 |
+| MM     | 月，不足两位则前补 0                                |
 | d      | 日，不足两位则显示一位                              |
-| dd     | 日，不足两位则前补0                                 |
-| h      | 时，不足两位则显示一位（12时制）                    |
-| hh     | 时，不足两位则前补0（12时制）                       |
-| H      | 时，不足两位则显示一位（24时制）                    |
-| HH     | 时，不足两位则前补0（24时制）                       |
+| dd     | 日，不足两位则前补 0                                |
+| h      | 时，不足两位则显示一位（12 时制）                   |
+| hh     | 时，不足两位则前补 0（12 时制）                     |
+| H      | 时，不足两位则显示一位（24 时制）                   |
+| HH     | 时，不足两位则前补 0（24 时制）                     |
 | m      | 分，不足两位则显示一位                              |
-| mm     | 分，不足两位则前补0                                 |
+| mm     | 分，不足两位则前补 0                                |
 | s      | 秒，不足两位则显示一位                              |
-| ss     | 秒，不足两位则前补0                                 |
+| ss     | 秒，不足两位则前补 0                                |
 | S      | 毫秒，优先保留一位                                  |
-| SS     | 毫秒，优先保留两位，不足补前0                       |
-| SSS    | 毫秒，优先保留三位，不足前补0                       |
+| SS     | 毫秒，优先保留两位，不足补前 0                      |
+| SSS    | 毫秒，优先保留三位，不足前补 0                      |
 | t      | 毫秒，截断为一位                                    |
 | tt     | 毫秒，截断为两位                                    |
 | ttt    | 毫秒，截断为三位                                    |
@@ -358,23 +356,23 @@ dateFormat(dateTime, template)
 **引入：**
 
 ```js
-import { getType } from '@quackxl/utility'
+import { getType } from "@quackxl/utility";
 or
-import getType from '@quackxl/utility/cores/getType.js'
+import { getType } from "@quackxl/utility/cores/getType.js";
 ```
 
 **格式：**
 
 ```js
-getType(value)
+getType(value);
 ```
 
 **参数：**
 
-| 属性名   | 类型     | 描述                                                         |
-| -------- | -------- | ------------------------------------------------------------ |
-| `vaue`   | `Any`    | 需要获取数据类型的数据                                       |
-| `return` | `String` | 返回值。返回格式为`[object xxx]`的字符串，其中`xxx`为具体的类型 |
+| 属性名   | 类型     | 描述                                     |
+| -------- | -------- | ---------------------------------------- |
+| `vaue`   | `Any`    | 需要获取数据类型的数据                   |
+| `return` | `String` | 返回值。返回具体的类型字符串，如`String` |
 
 ## isArray
 
@@ -383,15 +381,15 @@ getType(value)
 **引入：**
 
 ```js
-import { isArray } from '@quackxl/utility'
+import { isArray } from "@quackxl/utility";
 or
-import isArray from '@quackxl/utility/cores/isArray.js'
+import { isArray } from "@quackxl/utility/cores/isArray.js";
 ```
 
 **格式：**
 
 ```js
-isArray(value)
+isArray(value);
 ```
 
 **参数：**
@@ -408,15 +406,15 @@ isArray(value)
 **引入：**
 
 ```js
-import { isBigInt } from '@quackxl/utility'
+import { isBigInt } from "@quackxl/utility";
 or
-import isBigInt from '@quackxl/utility/cores/isBigInt.js'
+import { isBigInt } from "@quackxl/utility/cores/isBigInt.js";
 ```
 
 **格式：**
 
 ```js
-isBigInt(value)
+isBigInt(value);
 ```
 
 **参数：**
@@ -433,15 +431,15 @@ isBigInt(value)
 **引入：**
 
 ```js
-import { isBoolean } from '@quackxl/utility'
+import { isBoolean } from "@quackxl/utility";
 or
-import isBoolean from '@quackxl/utility/cores/isBoolean.js'
+import { isBoolean } from "@quackxl/utility/cores/isBoolean.js";
 ```
 
 **格式：**
 
 ```js
-isBoolean(value)
+isBoolean(value);
 ```
 
 **参数：**
@@ -458,15 +456,15 @@ isBoolean(value)
 **引入：**
 
 ```js
-import { isNotEmpty } from '@quackxl/utility'
+import { isNotEmpty } from "@quackxl/utility";
 or
-import isNotEmpty from '@quackxl/utility/cores/isNotEmpty.js'
+import { isNotEmpty } from "@quackxl/utility/cores/isNotEmpty.js";
 ```
 
 **格式：**
 
 ```js
-isNotEmpty(value)
+isNotEmpty(value);
 ```
 
 **参数：**
@@ -483,15 +481,15 @@ isNotEmpty(value)
 **引入：**
 
 ```js
-import { isNull } from '@quackxl/utility'
+import { isNull } from "@quackxl/utility";
 or
-import isNull from '@quackxl/utility/cores/isNull.js'
+import { isNull } from "@quackxl/utility/cores/isNull.js";
 ```
 
 **格式：**
 
 ```js
-isNull(value)
+isNull(value);
 ```
 
 **参数：**
@@ -508,15 +506,15 @@ isNull(value)
 **引入：**
 
 ```js
-import { isNumber } from '@quackxl/utility'
+import { isNumber } from "@quackxl/utility";
 or
-import isNumber from '@quackxl/utility/cores/isNumber.js'
+import { isNumber } from "@quackxl/utility/cores/isNumber.js";
 ```
 
 **格式：**
 
 ```js
-isNumber(value)
+isNumber(value);
 ```
 
 **参数：**
@@ -533,15 +531,15 @@ isNumber(value)
 **引入：**
 
 ```js
-import { isObject } from '@quackxl/utility'
+import { isObject } from "@quackxl/utility";
 or
-import isObject from '@quackxl/utility/cores/isObject.js'
+import { isObject } from "@quackxl/utility/cores/isObject.js";
 ```
 
 **格式：**
 
 ```js
-isObject(value)
+isObject(value);
 ```
 
 **参数：**
@@ -558,15 +556,15 @@ isObject(value)
 **引入：**
 
 ```js
-import { isString } from '@quackxl/utility'
+import { isString } from "@quackxl/utility";
 or
-import isString from '@quackxl/utility/cores/isString.js'
+import { isString } from "@quackxl/utility/cores/isString.js";
 ```
 
 **格式：**
 
 ```js
-isString(value)
+isString(value);
 ```
 
 **参数：**
@@ -583,15 +581,15 @@ isString(value)
 **引入：**
 
 ```js
-import { isSymbol } from '@quackxl/utility'
-or
-import isSymbol from '@quackxl/utility/cores/isSymbol.js'
+import { isSymbol } from "@quackxl/utility";
+or;
+import { isSymbol } from "@quackxl/utility/cores/isSymbol.js";
 ```
 
 **格式：**
 
 ```js
-isSymbol(value)
+isSymbol(value);
 ```
 
 **参数：**
@@ -608,15 +606,15 @@ isSymbol(value)
 **引入：**
 
 ```js
-import { isUndefined } from '@quackxl/utility'
+import { isUndefined } from "@quackxl/utility";
 or
-import isUndefined from '@quackxl/utility/cores/isUndefined.js'
+import { isUndefined } from "@quackxl/utility/cores/isUndefined.js";
 ```
 
 **格式：**
 
 ```js
-isUndefined(value)
+isUndefined(value);
 ```
 
 **参数：**
@@ -633,15 +631,15 @@ isUndefined(value)
 **引入：**
 
 ```js
-import { trimAll } from '@quackxl/utility'
+import { trimAll } from "@quackxl/utility";
 or
-import trimAll from '@quackxl/utility/cores/trimAll.js'
+import { trimAll } from "@quackxl/utility/cores/trimAll.js";
 ```
 
 **格式：**
 
 ```js
-trimAll(str)
+trimAll(str);
 ```
 
 **参数：**

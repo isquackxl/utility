@@ -1,52 +1,24 @@
-import checkColor from './cores/checkColor.js';
-import checkEmail from './cores/checkEmail.js';
-import checkHEX from './cores/checkHEX.js';
-import checkHSL from './cores/checkHSL.js';
-import checkHSLA from './cores/checkHSLA.js';
-import checkID from './cores/checkID.js';
-import checkMobilePhone from './cores/checkMobilePhone.js';
-import checkQQ from './cores/checkQQ.js';
-import checkRGB from './cores/checkRGB.js';
-import checkRGBA from './cores/checkRGBA.js';
-import checkTelephone from './cores/checkTelephone.js';
-import dateFormat from './cores/dateFormat.js';
-import getType from './cores/getType.js';
-import isArray from './cores/isArray.js';
-import isBigInt from './cores/isBigInt.js';
-import isBoolean from './cores/isBoolean.js';
-import isNotEmpty from './cores/isNotEmpty.js';
-import isNull from './cores/isNull.js';
-import isNumber from './cores/isNumber.js';
-import isObject from './cores/isObject.js';
-import isString from './cores/isString.js';
-import isSymbol from './cores/isSymbol.js';
-import isUndefined from './cores/isUndefined.js';
-import trimAll from './cores/trimAll.js';
-
-
-export {
-  checkColor,
-  checkEmail,
-  checkHEX,
-  checkHSL,
-  checkHSLA,
-  checkID,
-  checkMobilePhone,
-  checkQQ,
-  checkRGB,
-  checkRGBA,
-  checkTelephone,
-  dateFormat,
-  getType,
-  isArray,
-  isBigInt,
-  isBoolean,
-  isNotEmpty,
-  isNull,
-  isNumber,
-  isObject,
-  isString,
-  isSymbol,
-  isUndefined,
-  trimAll,
-}
+export * from './cores/checkColor.js';
+export * from './cores/checkEmail.js';
+export * from './cores/checkHex.js';
+export * from './cores/checkHsl.js';
+export * from './cores/checkHsla.js';
+export * from './cores/checkID.js';
+export * from './cores/checkMobilePhone.js';
+export * from './cores/checkQQ.js';
+export * from './cores/checkRgb.js';
+export * from './cores/checkRgba.js';
+export * from './cores/checkTelephone.js';
+export * from './cores/dateFormat.js';
+export * from './cores/getType.js';
+export * from './cores/isArray.js';
+export * from './cores/isBigInt.js';
+export * from './cores/isBoolean.js';
+export * from './cores/isNotEmpty.js';
+export * from './cores/isNull.js';
+export * from './cores/isNumber.js';
+export * from './cores/isObject.js';
+export * from './cores/isString.js';
+export * from './cores/isSymbol.js';
+export * from './cores/isUndefined.js';
+export * from './cores/trimAll.js';
